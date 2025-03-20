@@ -1,0 +1,4 @@
+This week we tried a code we found on the internet to apply Eulerian Video Magnification to a video. 
+The code process the video by splitting it into clips, applying a Laplacian pyramid for spatial decomposition, and then applying a Butterworth bandpass filter to the amplify the small motions in the video. 
+Then in the pipline, motion magnification is applied to the video and the processed video is saved.
+Next week, we will extract individual frames and analyze the vibration data by observing changes in intensity  over time, and will apply frequency domain analysis to the data such as FFT to extract the frequency components. This analysis will help us to identify the frequency  and the intensity of the vibration.
